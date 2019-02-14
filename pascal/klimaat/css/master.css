@@ -1,0 +1,227 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  background: url('../img/bg.svg') no-repeat;
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #000;
+  padding: 0 45px;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h3 {
+  color: #000;
+}
+
+p {
+  text-align: center;
+}
+
+/*------------------------------- Class TAGS -------------------------------*/
+
+.bg-2 {
+  background: url('../img/bg-2.svg') no-repeat;
+  background-size: cover;
+  margin-top: 5em;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-2 h1 {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.center {
+  text-align: center;
+  width: 60%;
+  margin: 1em auto;
+}
+
+.container {
+  text-align: center;
+  width: 60%;
+  margin: 5em auto;
+  padding-top: 1.5em;
+}
+
+.text-1 {
+  text-align: center;
+  padding-top: 12em;
+  color: #000;
+}
+
+.text-2 {
+  text-align: center;
+  width: 100%;
+  color: #000;
+}
+
+.slider {
+  max-width: 100vw;
+  height: 80%;
+  margin: 2em auto;
+  position: relative;
+  padding-bottom: 7em;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(../img/klimaat-1.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 10s infinite;
+-webkit-animation:fade 10s infinite;
+
+}
+.slide2 {
+  background: url(../img/klimaat-2.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 10s infinite;
+-webkit-animation:fade2 10s infinite;
+}
+.slide3 {
+    background: url(../img/sea.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 10s infinite;
+-webkit-animation:fade3 10s infinite;
+}
+
+.round-1, .round-2, .round-3 {
+  height: 20em;
+  width: 20em;
+  margin: 1em;
+  padding-top: 1em;
+}
+
+.round-1 {
+  float: left;
+  padding-left: 6em;
+}
+
+.round-2 {
+  float: left;
+}
+
+.round-3{
+  float: left;
+}
+
+.black {
+  padding-top: 24em;
+  color: #000;
+  text-align: center;
+  width: 60%;
+  margin: 1em auto;
+}
+
+.center h1 {
+  padding-top: 12em;
+}
+/*------------------------------- Keyframes TAGS -------------------------------*/
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+/*------------------------------- ID TAGS -------------------------------*/
+
+#left {
+  position: absolute;
+  top: 60%;
+  height: 12em;
+}
+
+#right {
+  position: absolute;
+  top: 9%;
+  right: 0;
+  z-index: 1;
+  height: 18em;
+}
+
+#left-1 {
+  position: absolute;
+  top: 1600px;
+  height: 12em;
+}
+
+#right-1 {
+  position: absolute;
+  top: 2030px;
+  right: 0;
+  z-index: 1;
+  height: 18em;
+}
+
+#left-2 {
+  position: absolute;
+  top: 2400px;
+  height: 12em;
+}
+
+#right-2 {
+  position: absolute;
+  top: 2800px;
+  right: 0;
+  z-index: 1;
+  height: 18em;
+}
+
+#left-3 {
+  position: absolute;
+  top: 3200px;
+  height: 12em;
+}
+
+#logo {
+  font-size: 2em;
+}
