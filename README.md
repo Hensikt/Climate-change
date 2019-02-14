@@ -7,8 +7,9 @@ In dit project hebben wij een Webpagina voor u, op deze webpagina krijgt u infor
 ### Het Idee
 Een webpagina die uitleg geeft over wat de versnelde klimaat verandering.  
 Met op deze pagina:  
-1. Een klimaat georienteerde css palet.  
+1. Een thema geheel georienteerd tot het klimaat met daarbij informatie over het versnelde klimaat verandering
+2. Een klimaat georienteerde css palet.  
    * Het spectrum tussen blauw en groen, Wit, Rooie tinten.  
-2. Een linkje naar een (met Unity gemaakte) Game  
+3. Een linkje naar een (met Unity gemaakte) Game  
    * Deze game laat zien hoe de wereld er uit kan zien als wij beter voor ons klimaat gaan zorgen.  
    * Deze game laat ook zien hoe we dat kunnen bereiken.  
